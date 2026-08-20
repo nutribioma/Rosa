@@ -424,7 +424,21 @@ a.contact-method:hover { background: rgba(255,255,255,0.12); transform: translat
   gap: 28px;
   padding: 44px 0;
 }
+.footer-brand { display: flex; align-items: center; gap: 16px; }
 .footer-logo { height: 36px; }
+.footer-social {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.8);
+  border: 1px solid rgba(255,255,255,0.25);
+  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.footer-social svg { width: 18px; height: 18px; }
+.footer-social:hover { color: #fff; border-color: rgba(255,255,255,0.6); transform: translateY(-2px); }
 .footer-nav { display: flex; flex-wrap: wrap; gap: 22px; font-size: 0.92rem; }
 .footer-nav a:hover { color: #fff; }
 .footer-contact { display: flex; flex-direction: column; gap: 4px; font-size: 0.92rem; text-align: right; }

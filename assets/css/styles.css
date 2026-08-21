@@ -167,7 +167,7 @@ p { margin: 0 0 1em; color: var(--text-muted); }
 
 .brand-logo { height: 40px; width: auto; }
 
-.main-nav { display: flex; gap: 30px; }
+.main-nav { display: flex; align-items: center; gap: 24px; }
 .main-nav a {
   font-weight: 600;
   font-size: 0.95rem;
@@ -180,6 +180,26 @@ p { margin: 0 0 1em; color: var(--text-muted); }
 .header-actions { display: flex; align-items: center; gap: 10px; }
 .header-phone { display: inline-flex; }
 .header-phone span { display: inline; }
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  margin-left: 8px;
+}
+.lang-switch a {
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: var(--text-muted);
+}
+.lang-switch a:hover { color: var(--blue); }
+.lang-switch a.is-current { background: var(--navy); color: #fff; }
 
 .nav-toggle {
   display: none;

@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.html
+
+# Servir index.html al entrar en una carpeta (ya suele ser el comportamiento
+# por defecto de Apache, esto lo deja explícito)
+DirectoryIndex index.html
